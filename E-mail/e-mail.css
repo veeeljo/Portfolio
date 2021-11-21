@@ -1,0 +1,173 @@
+body {
+
+
+   font-family:Montserrat;
+  position:absolute;
+
+}
+
+
+*{
+
+  box-sizing:border-box;
+
+}
+
+
+
+
+
+
+  header {
+  position:absolute;
+  height: 300px;
+  width: 1000px;
+  background-color:white;
+  margin-left:450px;
+  margin-right:250px;
+  margin-top:100px;
+  padding: 0;
+
+}
+
+
+
+header ul {
+  margin-top:10px;
+  list-style-type: none;
+  padding: 0;
+  width:130px;
+  float:right;
+  text-align:center;
+  margin-right:15px;
+
+
+}
+
+li a {
+  font-family: Montserrat;
+  display:inline-block;
+  font-size: 20px;
+
+}
+
+
+
+li a:link,li a:visited  {
+  color:black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width:170px;
+}
+
+
+
+li a:hover{
+ background-color:darkgray;
+  color:white;
+  width:170px;
+  border-radius: 30px;
+
+
+}
+
+li a:active {
+  background-color:darkgray;
+  color:white bold;
+  width:170px;
+
+
+}
+
+
+.naslovna {
+  margin-top:10px;
+  max-height:300px;
+  max-width:700px;
+}
+
+
+#crno{
+  margin-left:450px;
+  margin-right:250px;
+  position:absolute;
+  width: 1000px;
+  height:15px;
+  background-color:black;
+  margin-top:400px;
+  padding: 0;
+}
+
+.slika {
+
+  margin-top:700px;
+  margin-left:450px;
+  width:600px;
+  height:800px;
+
+
+
+
+}
+
+
+
+#opis {
+
+  margin-top:700px;
+  width:400px;
+  list-style-type: none;
+  padding: 0;
+  float:right;
+  margin-right:15px;
+  margin-left: 50px;
+
+
+}
+
+
+
+
+
+#futer {
+
+  margin-left:450px;
+  margin-right:250px;
+  position:absolute;
+  width: 1000px;
+  height:100px;
+  margin-top:2000px;
+  padding-top: 10px;;
+  border-top: 5px solid black;
+  text-align:center;
+  font-size:25px;
+}
+
+
+
+#futer a {
+  text-decoration:none;
+  color:black;
+}
+
+
+
+#futer a:hover {
+  text-decoration:none;
+  color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

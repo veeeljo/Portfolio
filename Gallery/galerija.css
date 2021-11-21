@@ -1,0 +1,300 @@
+
+body {
+
+
+   font-family:montserrat;
+}
+
+
+*{
+
+  box-sizing:border-box;
+
+}
+
+
+
+
+
+
+  header {
+  position:absolute;
+  height: 300px;
+  width: 1000px;
+  background-color:white;
+  margin-left:450px;
+  margin-right:250px;
+  margin-top:100px;
+  padding: 0;
+
+}
+
+
+
+header ul {
+  margin-top:10px;
+  list-style-type: none;
+  padding: 0;
+  width:130px;
+  float:right;
+  text-align:center;
+margin-right:15px;
+
+}
+
+li a {
+  font-family: Montserrat;
+  display:inline-block;
+  font-size: 20px;
+
+}
+
+
+
+li a {
+  font-family: Montserrat;
+  display:inline-block;
+  font-size: 20px;
+
+}
+
+
+
+li a:link,li a:visited  {
+  color:black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width:170px;
+}
+
+
+
+li a:hover{
+ background-color:darkgray;
+  color:white;
+  width:170px;
+  border-radius: 30px;
+
+
+}
+
+li a:active {
+  background-color:darkgray;
+  color:white bold;
+  width:170px;
+
+
+}
+
+
+.naslovna {
+  margin-top:10px;
+  max-height:300px;
+  max-width:700px;
+}
+
+
+
+
+
+#crno{
+  margin-left:450px;
+  margin-right:250px;
+  position:absolute;
+  width: 1000px;
+  height:15px;
+  background-color:black;
+  margin-top:400px;
+  padding: 0;
+}
+
+.mySlidesfade {
+
+
+  position:absolute;
+  height: 300px;
+  width: 1000px;
+  background-color:white;
+  margin-left:550px;
+  margin-right:250px;
+  margin-top:700px;
+
+  padding: 0;
+
+}
+
+#futer{
+
+  margin-left:450px;
+  margin-right:250px;
+  position:absolute;
+  width: 1000px;
+  height:100px;
+  margin-top:700px;
+  padding-top: 10px;
+  border-top: 5px solid black;
+  text-align:center;
+  font-size:25px;
+}
+
+
+
+
+
+
+
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin-top:1300px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+
+
+
+.slika2{
+
+  position:absolute;
+  margin-top:-50px;
+  border-style:solid;
+
+}
+
+.text {
+  margin-left: 600px;
+  display:block;
+  font-size: 30px;
+  color:gray;
+  text-align:center;
+  font-weight:bold;
+
+}
+
+.ba {
+  margin-top:550px;
+  display:block;
+  font-size: 30px;
+  color:gray;
+  position:absolute;
+  margin-top:500px;
+  margin-left:320px;
+  width:auto;
+  height:auto;
+  font-weight:bold;
+
+}
+
+
+ .opisba{
+
+
+  display:block;
+  font-size: 20px;
+  color:gray;
+  position:absolute;
+  margin-top:700px;
+  width:90%;
+  height:auto;
+
+
+
+ }
+
+
+
+.opis {
+
+  margin-top:70px;
+  margin-left: 600px;
+  display:block;
+  font-size: 20px;
+  color:gray;
+  text-align:center;
+
+}
+
+
+
+
+#futer a {
+  text-decoration:none;
+  color:black;
+}
+
+
+
+#futer a:hover {
+  text-decoration:none;
+  color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+

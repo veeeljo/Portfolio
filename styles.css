@@ -1,0 +1,215 @@
+
+body {
+
+
+   font-family:Montserrat;
+  position:absolute;
+
+}
+
+
+*{
+
+  box-sizing:border-box;
+
+}
+
+
+
+
+
+
+  header {
+  position:absolute;
+  height: 300px;
+  width: 1000px;
+  background-color:white;
+  margin-left:450px;
+  margin-right:250px;
+  margin-top:100px;
+  padding: 0;
+
+}
+
+
+
+header ul {
+  margin-top:10px;
+  list-style-type: none;
+  padding: 0;
+  width:130px;
+  float:right;
+  text-align:center;
+  margin-right:15px;
+
+
+}
+
+li a {
+  font-family: Montserrat;
+  display:inline-block;
+  font-size: 20px;
+
+}
+
+
+
+li a:link,li a:visited  {
+  color:black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width:170px;
+}
+
+
+
+li a:hover{
+ background-color:darkgray;
+  color:white;
+  width:170px;
+  border-radius: 30px;
+
+
+}
+
+li a:active {
+  background-color:darkgray;
+  color:white bold;
+  width:170px;
+
+
+}
+
+.naslovna {
+ margin-top:10px;
+  max-height:300px;
+  max-width:700px;
+}
+
+
+
+#crno{
+  margin-left:450px;
+  margin-right:250px;
+  position:absolute;
+  width: 1000px;
+  height:15px;
+  background-color:black;
+  margin-top:400px;
+  padding: 0;
+}
+
+
+
+
+.home{
+
+  border-style:solid;
+  border-widht:5px;
+  border-color:black;
+
+
+
+}
+
+
+#fight{
+  display:block;
+}
+
+
+#shine{
+  margin-top:40px;
+  margin-right:85px;
+}
+
+
+#have{
+
+  margin-top:30px;
+
+}
+
+
+
+p {
+
+  display:block;
+  color:white;
+ }
+
+
+
+#tekst{
+
+
+  margin-top:550px;
+  margin-left:450px;
+  margin-right:250px;
+  width: 1000px;
+  height:350px;
+  display:block;
+  position:absolute;
+  border-bottom: solid 10px black;
+
+
+
+}
+
+#tekst2{
+
+  margin-top:990px;
+  margin-left:450px;
+  margin-right:250px;
+  width: 1000px;
+  height:500px;
+  display:block;
+  position:absolute;
+}
+
+
+
+
+
+
+#ja {
+
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  padding:0;
+  width:auto;
+  font-weight: bold;
+}
+
+
+
+#futer {
+
+  margin-left:450px;
+  margin-right:250px;
+  position:absolute;
+  width: 1000px;
+  height:100px;
+  margin-top:2000px;
+ padding-top: 10px;;
+  border-top: 5px solid black;
+  text-align:center;
+  font-size:25px;
+}
+
+
+
+#futer a {
+  text-decoration:none;
+  color:black;
+}
+
+
+
+#futer a:hover {
+  text-decoration:none;
+  color: gray;
+}

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="galerija.css">
+</head>
+<body>
+<header>
+<ul>
+ <li><a href="../index.html">Home</a></li>
+ <li><a href="../Gallery/galerija.html">Projects</a></li>
+ <li><a  href="../About us/about.html"> About me </a></li>
+  <li><a href="../Contact/contact.html">Contact</a></li>
+   <li><a href="../E-mail/e-mail.html">E-mail</a></li>
+</ul>
+<picture>
+  <source media="(min-width: 750px)" srcset="../Materials/logotip.png">
+  <source media="(min-width: 250px)" srcset="../Materials/logotip.png">
+  <img class="naslovna" src="Materials/logotip.png">
+</picture>
+  </header>
+  </header>
+
+
+  <main>
+
+<div id="crno">
+
+</div>
+
+
+<div class="mySlidesfade">
+    <img  class="slika2" src="../Materials/B&A.jpg" style="width:80%  " >
+    <div class="ba"> B&A </div>
+  <div class="opisba">
+    Logo for mobile application about Belgrade.
+The logo presents the stylization of the sparrow as a symbol of Belgrade
+and a question mark. The color is a mixture of brown and orange,
+while the logo is printed in the font "Montserrat-Bold".
+  </div>
+  </div>
+
+<div class="mySlidesfade">
+    <img class="slika2" src="../Materials/BHW.jpg" style="width:80%">
+    <div class="ba">Blue House Wax</div>
+    <div class="opisba"> Homemade pastry bakery, the logo represents a stylized letter b in the shape
+of a basket with pastries in it. The color is cyan-blue while the logotip is written
+in the font "Montserrat-Semibold". </div>
+  </div>
+
+<div class="mySlidesfade">
+    <img class="slika2" src="../Materials/DRP.jpg" style="width:80%">
+    <div class="ba">Don't recycle podcast</div>
+  <div class="opisba"> Podcast with goal to stop old fashion ways of thinking and teaching younger generations wrong mind sets. Logo represents recycle trash can with orange arrow pointing out of circle and moving forward out of pattern. It continues to word DON'T for the additional visual effect and awarness. Contrast is made by orange and dark gray colors while logotip is written in Montserrat-Bold.  </div>
+  </div>
+
+    <div class="mySlidesfade">
+    <img class="slika2" src="../Materials/EDC.jpg" style="width:80%">
+    <div class="ba">Erica’s Design Collective</div>
+    <div class="opisba">
+      Logo for furniture designer. The letters E, D and C are stylized in a chest
+of drawers. The color is dark brown while the logotip is written
+in the font "Doppio One Regular".
+      </div>
+
+
+
+
+  </div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+
+
+    <div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+
+
+
+</div>
+
+    <script>
+
+
+
+    var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlidesfade");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</main>
+
+<footer id="futer">
+
+  <p> <a id="sajt" href="../index.html"> www.vvportofolio.com</a> </p>
+
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
